@@ -4,8 +4,8 @@ class DockingStation
     @bike = Bike.new
   end
 
-  def dock_bike
-    print "Bike docked"
+  def dock_bike(bike)
+   bike
   end
 
 end
